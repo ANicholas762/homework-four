@@ -1,0 +1,24 @@
+// This area is for width and height
+$site-width: 1280px;
+$banner-height: 500px;
+$banner-footer-width: 1280px;
+$footer-height: 455px;
+$home-form-height: 320px;
+
+// This area is for site colors
+$site-purple: #540D6E;
+$site-pink: #EE4367;
+$site-yellow: #FFD140;
+$site-lightGreen: #3BCEAB;
+$site-darkGreen: #08AD69;
+
+// This area is for fonts
+@font-face {
+    font-family: PTSerifBold;
+    src: url(PTSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: PTSerifRegular;
+    src: url(../css/fonts/PTSerif-Regular.ttf);
+}
