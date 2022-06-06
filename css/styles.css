@@ -493,12 +493,12 @@ footer .icons {
   color: white;
 }
 footer .icons span {
-  margin-left: 14px;
+  margin-left: 10px;
 }
 footer .copy {
   position: absolute;
   width: 600px;
-  left: 790px;
+  left: 780px;
   top: 1100px;
 }
 footer .copy p {
