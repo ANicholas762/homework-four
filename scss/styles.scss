@@ -10,12 +10,13 @@
 @import "home/banner.scss";
 
 
-
-
 // this area is for the about links
 @import "structure.scss";
 @import "about/about-nav.scss";
 @import "about/about-banner.scss";
 @import "home/form-content.scss"; 
-@import "box-container.scss";
 @import "about/about-footer.scss";
+
+// this area is for the gallery links 
+@import "gallery/gallery-nav.scss";
+@import "gallery/gallery-footer.scss";

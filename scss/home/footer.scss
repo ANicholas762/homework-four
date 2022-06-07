@@ -1,8 +1,9 @@
-footer {
-    width: $banner-footer-width;
-    height: $banner-height;
-    background-color: $site-pink;
+.about-footer {
+    width: 100%;
+    height: 455px;
+    background-color: #EE4367;  
     margin: 0 auto;
+    margin-top: 200px;
 
     .logoTwo {
         width: 92px;
@@ -11,21 +12,22 @@ footer {
         border: solid 2px white;
         position: relative;
         margin: 0 auto;
-        top: 80px;
-      }
-
-      p {
-        position: absolute;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        /* font-stretch: semi-expanded; */
-        font-size: 24px;
-        font-weight: lighter;
-        margin-left: -1px;
-        top: 16px;
-        color: white;
+        top: 40px;
+        left: -20px;
     }
 
-    .add {
+        p {
+            position: absolute;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* font-stretch: semi-expanded; */
+            font-size: 24px;
+            font-weight: lighter;
+            margin-left: -1px;
+            top: 16px;
+            color: white;
+      }
+
+      .add {
         position: absolute;
         width: 260px;
         margin: 0 auto;
@@ -35,21 +37,23 @@ footer {
         font-weight: normal;
         text-align: center;
         top: 70px;
-        left: -80px;
+        margin-left: -80px;
     }
- 
+
     .userInput {
         display: flex;
+
 
         input{
             position: absolute;
             width: 529px;
             height: 64px;
-            left: 540px;
-            top: 1320px;
+            left: 556px;
             background-color: #F56B88;
+            border-color: #F56B88;
             color: white;
             font-size: 16px;
+            margin-top: 560px;
         }
 
         button {
@@ -58,32 +62,31 @@ footer {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: normal;
             font-size: 16px;
-            left: 1068px;
-            top: 1320px;
+            left: 1086px;
             color: #EE4367;
             border: none;
             background-color: white;
+            margin-top: 560px;
           }
-
     }
 
     .icons {
         position: absolute;
-        left: 780px;
-        top: 1400px;
+        left: 800px;
+        top: 1050px;
         font-size: 40px;
         color: white;
 
         span{
-            margin-left: 14px;
+            margin-left: 10px;
           }
        }
 
        .copy{
         position: absolute;
         width: 600px;
-        top: 1470px;
-        left: 770px;
+        left: 780px;
+        top: 1100px;
 
         p{
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
