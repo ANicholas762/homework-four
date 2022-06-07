@@ -1,21 +1,19 @@
-.about-footer {
+.home-footer {
   width: 100%;
-  height: 455px;
+  height: 500px;
   background-color: #EE4367;
   margin: 0 auto;
-  margin-top: 200px;
 }
-.about-footer .logoTwo {
+.home-footer .logoTwo {
   width: 92px;
   height: 42px;
   /* background-color: blueviolet; */
   border: solid 2px white;
   position: relative;
   margin: 0 auto;
-  top: 40px;
-  left: -20px;
+  top: 80px;
 }
-.about-footer p {
+.home-footer p {
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   /* font-stretch: semi-expanded; */
@@ -25,7 +23,7 @@
   top: 16px;
   color: white;
 }
-.about-footer .add {
+.home-footer .add {
   position: absolute;
   width: 260px;
   margin: 0 auto;
@@ -35,53 +33,52 @@
   font-weight: normal;
   text-align: center;
   top: 70px;
-  margin-left: -80px;
+  left: -80px;
 }
-.about-footer .userInput {
+.home-footer .userInput {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.about-footer .userInput input {
+.home-footer .userInput input {
   position: absolute;
-  top: 960px;
   width: 529px;
   height: 64px;
-  left: 556px;
+  left: 540px;
+  top: 1320px;
   background-color: #F56B88;
-  border-color: #F56B88;
   color: white;
   font-size: 16px;
 }
-.about-footer .userInput button {
+.home-footer .userInput button {
   position: absolute;
-  top: 960px;
   padding: 22.5px 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: normal;
   font-size: 16px;
-  left: 1086px;
+  left: 1068px;
+  top: 1320px;
   color: #EE4367;
   border: none;
   background-color: white;
 }
-.about-footer .icons {
+.home-footer .icons {
   position: absolute;
-  left: 800px;
-  top: 1050px;
+  left: 780px;
+  top: 1400px;
   font-size: 40px;
   color: white;
 }
-.about-footer .icons span {
-  margin-left: 10px;
+.home-footer .icons span {
+  margin-left: 14px;
 }
-.about-footer .copy {
+.home-footer .copy {
   position: absolute;
   width: 600px;
-  left: 780px;
-  top: 1100px;
+  top: 1470px;
+  left: 770px;
 }
-.about-footer .copy p {
+.home-footer .copy p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: normal;
   font-size: 12px;

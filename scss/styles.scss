@@ -1,22 +1,25 @@
-// global variables
+// Global Imports
 @import "variables.scss";
-
-
-// this area is for the index links 
-@import "home/nav.scss";
-@import "home/box-container.scss";
-@import "home/footer.scss";
-@import "home/form-content.scss"; 
-@import "home/banner.scss";
-
-
-// this area is for the about links
 @import "structure.scss";
+
+// This area is for home links
+@import "home/home-nav.scss";
+@import "home/home-banner.scss";
+@import "home/home-form-content.scss";
+@import "home/home-box-container.scss";
+@import "home/home-footer.scss";
+
+// This area is for about links
 @import "about/about-nav.scss";
 @import "about/about-banner.scss";
-@import "home/form-content.scss"; 
 @import "about/about-footer.scss";
 
-// this area is for the gallery links 
+// This area is for the gallery links
 @import "gallery/gallery-nav.scss";
+@import "gallery/gallery-banner.scss";
 @import "gallery/gallery-footer.scss";
+@import "gallery/gallery-one-banner.scss";
+@import "gallery/gallery-two-banner.scss";
+@import "gallery/gallery-three-banner.scss";
+@import "gallery/gallery-four-banner.scss";
+@import "gallery/gallery-five-banner.scss";

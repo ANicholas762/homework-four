@@ -1,4 +1,4 @@
-.banner {
+.home-banner {
     max-width: 100%;
     height: 500px;
     background-image: linear-gradient(
@@ -14,11 +14,11 @@
 
     h2 {
         position: absolute;
-        justify-content: center;
+        align-items: center;
         font-family: serif;
         font-weight: lighter;
         font-size: 40px;
-        margin-left: 500px;
+        margin-left: 720px;
         top: 160px;
         color: white;
     }
@@ -30,8 +30,8 @@
         font-size: 20px;
         font-style: italic;
         font-weight: lighter;
-        margin-left: 520px;
-        top:220px;
+        margin-left: 750px;
+        top:230px;
         text-align: center;
         color: #EE4367;
     }
@@ -42,8 +42,8 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
         font-style: italic;
-        margin-left: 420px;
-        top: 280px;
+        margin-left: 660px;
+        top: 260px;
         text-align: center;
         color: white;
 
@@ -54,10 +54,10 @@
         padding: 10px 24px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
-        margin-left: 550px;
+        margin-left: 780px;
         top: 360px;
         background-color: #EE4367;
-        color: white; 
+        color: #fff; 
         border-color: #EE4367;   
     }
-}  
+}

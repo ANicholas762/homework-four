@@ -3,7 +3,7 @@
     height: 80px;
     margin: 0 auto;
     // background-color: black; 
-    // border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,11 +16,7 @@
         // background-color: blueviolet;
         border: solid 2px white;
         position: relative;
-
-        // @font-face {
-        //     font-family: gillSans;
-        //     src: url(../css/fonts/GillSans.ttc);
-        // }
+        left: 20px;
 
         p {
             position: absolute;
@@ -28,12 +24,13 @@
             font-size: 20px;
             font-weight: lighter;
             margin-left: 2px;
-            top: 20px;
+            top: 2px;
             color: white;
         } 
     }
 
     .links {
+        margin-right: 40px;
         a {
             color: white;
             text-decoration: none;
@@ -46,4 +43,5 @@
             margin: 0 20px;
         }
     }
+
 }

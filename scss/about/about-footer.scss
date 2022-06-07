@@ -5,14 +5,14 @@
     margin: 0 auto;
     margin-top: 200px;
 
-    .logoTwo {
+    .about-logo {
         width: 92px;
         height: 42px;
         /* background-color: blueviolet; */
         border: solid 2px white;
         position: relative;
         margin: 0 auto;
-        top: 40px;
+        top: 60px;
         left: -20px;
     }
 
@@ -27,7 +27,7 @@
             color: white;
       }
 
-      .add {
+      .about-address {
         position: absolute;
         width: 260px;
         margin: 0 auto;
@@ -36,11 +36,11 @@
         font-size: 16px;
         font-weight: normal;
         text-align: center;
-        top: 70px;
+        top: 90px;
         margin-left: -80px;
     }
 
-    .userInput {
+    .about-userInput {
         display: flex;
 
         input{
@@ -48,7 +48,7 @@
             top: 960px;
             width: 529px;
             height: 64px;
-            left: 556px;
+            left: 500px;
             background-color: #F56B88;
             border-color: #F56B88;
             color: white;
@@ -62,16 +62,16 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-weight: normal;
             font-size: 16px;
-            left: 1086px;
+            left: 1020px;
             color: #EE4367;
             border: none;
             background-color: white;
           }
     }
 
-    .icons {
+    .about-icons {
         position: absolute;
-        left: 800px;
+        left: 740px;
         top: 1050px;
         font-size: 40px;
         color: white;
@@ -81,10 +81,10 @@
           }
        }
 
-       .copy{
+       .about-copy{
         position: absolute;
         width: 600px;
-        left: 780px;
+        left: 720px;
         top: 1100px;
 
         p{

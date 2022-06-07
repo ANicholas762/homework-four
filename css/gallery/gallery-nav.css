@@ -1,4 +1,4 @@
-.about-nav {
+.gallery-nav {
   max-width: 979.5px;
   height: 80px;
   margin: 0 auto;
@@ -15,14 +15,14 @@
   position: relative;
   z-index: 99;
 }
-.about-nav .logo {
+.gallery-nav .logo {
   width: 92px;
   height: 42px;
   border: solid 2px black;
   position: relative;
   margin-left: 20px;
 }
-.about-nav .logo p {
+.gallery-nav .logo p {
   position: absolute;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
@@ -31,14 +31,14 @@
   top: 20px;
   color: black;
 }
-.about-nav .links a {
+.gallery-nav .links a {
   color: black;
   text-decoration: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: lighter;
   margin-right: 20px;
 }
-.about-nav .links span {
+.gallery-nav .links span {
   color: #EE4367;
   margin: 0 20px;
 }

@@ -1,0 +1,287 @@
+.home-box-container {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  background-color: #540D6E;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.home-box-container h2 {
+  position: absolute;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: white;
+  left: 50px;
+  top: 50px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.home-box-container .box1 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 120px;
+  left: 40px;
+}
+.home-box-container .box1 .datebox1 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.home-box-container .box1 .datebox1 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 2px;
+  color: white;
+}
+.home-box-container .box1 .datebox1 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 10px;
+  color: white;
+}
+.home-box-container .box1 .txt1 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.home-box-container .box1 .txt1 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.home-box-container .box2 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 120px;
+  left: 360px;
+}
+.home-box-container .box2 .datebox2 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.home-box-container .box2 .datebox2 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.home-box-container .box2 .datebox2 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.home-box-container .box2 .txt2 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.home-box-container .box2 .txt2 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.home-box-container .box3 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 120px;
+  left: 720px;
+}
+.home-box-container .box3 .datebox3 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.home-box-container .box3 .datebox3 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.home-box-container .box3 .datebox3 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.home-box-container .box3 .txt3 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.home-box-container .box3 .txt3 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.home-box-container .box4 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 120px;
+  left: 1100px;
+}
+.home-box-container .box4 .datebox4 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.home-box-container .box4 .datebox4 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  left: 18px;
+  top: 6px;
+  color: white;
+}
+.home-box-container .box4 .datebox4 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 34px;
+  color: white;
+}
+.home-box-container .box4 .txt4 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.home-box-container .box4 .txt4 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}
+.home-box-container .box5 {
+  position: absolute;
+  width: 300px;
+  height: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 120px;
+  left: 1440px;
+}
+.home-box-container .box5 .datebox5 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.home-box-container .box5 .datebox5 h2 {
+  position: absolute;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  left: 18px;
+  top: 6px;
+  color: white;
+}
+.home-box-container .box5 .datebox5 h1 {
+  position: absolute;
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+  left: 19px;
+  top: 2px;
+  color: white;
+}
+.home-box-container .box5 .txt5 h1 {
+  width: 140px;
+  height: 41px;
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+.home-box-container .box5 .txt5 p {
+  width: 140px;
+  height: 78px;
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: normal;
+  color: #EE4367;
+}

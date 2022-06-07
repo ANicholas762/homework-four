@@ -1,0 +1,115 @@
+.gallery {
+    max-width: 980px;
+    min-height: 378px;
+    margin: 0 auto 0 auto;
+    margin-top: 40px;
+
+    span {
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        text-transform: uppercase;
+        border-bottom: solid 2px black;
+        padding-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .gallery-images {
+        margin-top: 40px;
+
+       .rowOne {
+           display: flex;
+           justify-content: space-between;
+            margin-bottom: 20px;
+
+        .imageOne {
+            width: 489px;
+            height: 187px;
+            background-image: linear-gradient(
+                rgba(255, 209, 64, 0.7),
+                rgba(255, 209, 64, 0.7)
+                ),
+                 url(../images/1.png);;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+        }
+        .imageTwo {
+            width: 187px;
+            height: 187px;
+            background-image: linear-gradient(
+                rgba(#EE4367, 0.7),
+                rgba(#EE4367, 0.7)
+                ),
+                 url(../images/2.jpeg);;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+        }
+        }
+        .imageThree {
+            width: 265px;
+            height: 187px;
+            background-image: linear-gradient(
+                rgba(#08AD69, 0.7),
+                rgba(#08AD69, 0.7)
+                ),
+                 url(../images/3.jpg);;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+        }
+
+
+        .rowTwo {
+            display: flex;
+            justify-content: space-between;
+
+            .imageFour {
+                width: 603px;
+                height: 306px;
+                background-image: linear-gradient(
+                rgba(#540D6E, 0.7),
+                rgba(#540D6E, 0.7)
+                ),
+                 url(../images/4.jpg);;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+            }
+
+            .imageFive {
+                width: 355px;
+                height: 306px;
+                background-image: linear-gradient(
+                rgba(#3BCEAB, 0.7),
+                rgba(#3BCEAB, 0.7)
+                ),
+                 url(../images/5.png);;
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 background-position: center;
+            }
+        }
+        }
+    } 
+    
+    @media (max-width: 944px) {
+        .gallery-images {
+            .rowOne {
+                display: block;
+                margin: 0 auto 20px auto;
+                width: 800px;
+            }
+        }
+    }
+
+    @media (max-width: 806px) {
+        .gallery-images {
+            .rowOne {
+                width: 600px;
+            }
+        }
+    }
+    
+    
